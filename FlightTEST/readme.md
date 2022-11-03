@@ -2,11 +2,7 @@
 
 ## Описание 
 
-Приложение для фильтрации набора перелетов согласно параметрам \
 Фильтры перечисляются в файле application.yaml
-
-
-
 
 ## Настройка
 
@@ -18,16 +14,16 @@
 3. MoreTwoHoursGroundTime - Общее время, проведённое на земле превышает два часа 
 
 Например: \
-flightFilters: DepartingInPast \
-flightFilters: DepartingInPast DepartsBeforeArrives \
-flightFilters: DepartingInPast MoreTwoHoursGroundTime \
-flightFilters: DepartingInPast DepartsBeforeArrives MoreTwoHoursGroundTime
+flightTEST: DepartingInPast \
+flightTEST: DepartingInPast DepartsBeforeArrives \
+flightTEST: DepartingInPast MoreTwoHoursGroundTime \
+flightTEST: DepartingInPast DepartsBeforeArrives MoreTwoHoursGroundTime
 
 ## Как запустить?:
 
 java -jar FlightFilter.jar
 
-## Сама задача:
+##задача:
 
 Имеется некая система, которая обрабатывает авиа-перелёты
  
